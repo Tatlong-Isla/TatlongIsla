@@ -1,0 +1,589 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tatlong Isla - Menu</title>
+    <link rel="stylesheet" href="menu.css" />
+  </head>
+  <body>
+    <!-- NAVBAR -->
+    <header class="navbar">
+      <div class="logo">TATLONG ISLA</div>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="index.html">HOME</a></li>
+          <li><a href="store.html">OUR STORE</a></li>
+          <li><a href="about.html">ABOUT</a></li>
+          <li><a href="menu.html">MENU</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- HERO -->
+    <main class="hero">
+      <div class="hero-overlay">
+        <h3>
+          Experience the rich and vibrant flavors of the Philippines with every
+          dish. Three islands. One unforgettable dining experience.
+        </h3>
+      </div>
+    </main>
+
+    <!-- MENU -->
+    <section class="menu-section">
+      <div class="menu-container">
+        <h2 class="menu-title">OUR MENU</h2>
+
+        <!-- ================= APPETIZERS ================= -->
+        <div class="menu-category">
+          <h3>Appetizers</h3>
+          <div class="menu-grid">
+            <div class="menu-card">
+              <img src="images/a1.jpg" />
+              <h4>Lumpiang Shanghai Bites</h4>
+              <p>Crispy pork spring rolls with sweet chili sauce</p>
+              <span class="price">₱180</span>
+              <button
+                class="add-btn"
+                onclick="addToCart('Lumpiang Shanghai Bites',180)"
+              >
+                Add to Cart
+              </button>
+            </div>
+
+            <div class="menu-card">
+              <img src="images/a2.jpg" />
+              <h4>Kinilaw na Tanigue</h4>
+              <p>Fresh tuna ceviche with vinegar and ginger</p>
+              <span class="price">₱220</span>
+              <button
+                class="add-btn"
+                onclick="addToCart('Kinilaw na Tanigue',220)"
+              >
+                Add to Cart
+              </button>
+            </div>
+
+            <div class="menu-card">
+              <img src="images/a3.jpg" />
+              <h4>Ukoy sa Batangas</h4>
+              <p>Shrimp and vegetable fritters</p>
+              <span class="price">₱160</span>
+              <button
+                class="add-btn"
+                onclick="addToCart('Ukoy sa Batangas',160)"
+              >
+                Add to Cart
+              </button>
+            </div>
+
+            <div class="menu-card">
+              <img src="images/a4.jpg" />
+              <h4>Satti Sticks</h4>
+              <p>Skewered beef with spicy peanut sauce</p>
+              <span class="price">₱190</span>
+              <button class="add-btn" onclick="addToCart('Satti Sticks',190)">
+                Add to Cart
+              </button>
+            </div>
+
+            <div class="menu-card">
+              <img src="images/a5.jpg" />
+              <h4>Ensaladang Talong Gourmet</h4>
+              <p>Grilled eggplant salad with salted egg</p>
+              <span class="price">₱150</span>
+              <button
+                class="add-btn"
+                onclick="addToCart('Ensaladang Talong Gourmet',150)"
+              >
+                Add to Cart
+              </button>
+            </div>
+
+            <div class="menu-card">
+              <img src="images/a6.jpg" />
+              <h4>Sisig Croquettes</h4>
+              <p>Creamy sisig filling with calamansi aioli</p>
+              <span class="price">₱200</span>
+              <button
+                class="add-btn"
+                onclick="addToCart('Sisig Croquettes',200)"
+              >
+                Add to Cart
+              </button>
+            </div>
+
+            <div class="menu-card">
+              <img src="images/a7.jpg" />
+              <h4>Bagnet Chicharon</h4>
+              <p>Crispy Ilocano pork belly cubes</p>
+              <span class="price">₱210</span>
+              <button
+                class="add-btn"
+                onclick="addToCart('Bagnet Chicharon',210)"
+              >
+                Add to Cart
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- ================= MAIN DISHES ================= -->
+        <div class="menu-category">
+          <h3>Main Dishes</h3>
+          <div class="menu-grid">
+            <div class="menu-card">
+              <img src="images/dish2.jpg" />
+              <h4>Kare-Kare sa Baguio Peanuts</h4>
+              <p>Beef shank and tripe in peanut sauce</p>
+              <span class="price">₱420</span>
+              <button
+                class="add-btn"
+                onclick="addToCart('Kare-Kare sa Baguio Peanuts',420)"
+              >
+                Add to Cart
+              </button>
+            </div>
+
+            <div class="menu-card">
+              <img src="images/dish5.jpg" />
+              <h4>Laing sa Gata</h4>
+              <p>Taro leaves in coconut cream</p>
+              <span class="price">₱280</span>
+              <button class="add-btn" onclick="addToCart('Laing sa Gata',280)">
+                Add to Cart
+              </button>
+            </div>
+
+            <div class="menu-card">
+              <img src="images/dish3.jpg" />
+              <h4>Chicken Inasal</h4>
+              <p>Grilled chicken with calamansi</p>
+              <span class="price">₱320</span>
+              <button class="add-btn" onclick="addToCart('Chicken Inasal',320)">
+                Add to Cart
+              </button>
+            </div>
+
+            <div class="menu-card">
+              <img src="images/dish4.jpg" />
+              <h4>Cebu Lechon Belly Roll</h4>
+              <p>Roasted pork belly with herbs</p>
+              <span class="price">₱480</span>
+              <button
+                class="add-btn"
+                onclick="addToCart('Cebu Lechon Belly Roll',480)"
+              >
+                Add to Cart
+              </button>
+            </div>
+
+            <div class="menu-card">
+              <img src="images/m5.jpg" />
+              <h4>Beef Kulma</h4>
+              <p>Tausug-style beef curry</p>
+              <span class="price">₱390</span>
+              <button class="add-btn" onclick="addToCart('Beef Kulma',390)">
+                Add to Cart
+              </button>
+            </div>
+
+            <div class="menu-card">
+              <img src="images/m6.jpg" />
+              <h4>Sinigang na Ulang</h4>
+              <p>Freshwater prawns in tamarind broth</p>
+              <span class="price">₱450</span>
+              <button
+                class="add-btn"
+                onclick="addToCart('Sinigang na Ulang',450)"
+              >
+                Add to Cart
+              </button>
+            </div>
+
+            <div class="menu-card">
+              <img src="images/m7.jpg" />
+              <h4>Adobong Pula ng Batangas</h4>
+              <p>Pork adobo with annatto</p>
+              <span class="price">₱330</span>
+              <button
+                class="add-btn"
+                onclick="addToCart('Adobong Pula ng Batangas',330)"
+              >
+                Add to Cart
+              </button>
+            </div>
+
+            <div class="menu-card">
+              <img src="images/m8.jpg" />
+              <h4>Paksiw na Pata</h4>
+              <p>Slow-cooked pork hock</p>
+              <span class="price">₱460</span>
+              <button class="add-btn" onclick="addToCart('Paksiw na Pata',460)">
+                Add to Cart
+              </button>
+            </div>
+
+            <div class="menu-card">
+              <img src="images/m9.jpg" />
+              <h4>Tinolang Manok</h4>
+              <p>Chicken soup with ginger</p>
+              <span class="price">₱290</span>
+              <button class="add-btn" onclick="addToCart('Tinolang Manok',290)">
+                Add to Cart
+              </button>
+            </div>
+
+            <div class="menu-card">
+              <img src="images/dish1.jpg" />
+              <h4>Grilled Tuna Panga sa Gata</h4>
+              <p>Tuna jaw simmered in coconut milk</p>
+              <span class="price">₱410</span>
+              <button
+                class="add-btn"
+                onclick="addToCart('Grilled Tuna Panga sa Gata',410)"
+              >
+                Add to Cart
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- ================= DESSERTS ================= -->
+        <div class="menu-category">
+          <h3>Desserts</h3>
+          <div class="menu-grid">
+            <div class="menu-card">
+              <img src="images/d1.jpg" />
+              <h4>Brazo de Ube</h4>
+              <span class="price">₱180</span>
+              <button class="add-btn" onclick="addToCart('Brazo de Ube',180)">
+                Add to Cart
+              </button>
+            </div>
+
+            <div class="menu-card">
+              <img src="images/d2.jpg" />
+              <h4>Budbud Kabog</h4>
+              <span class="price">₱160</span>
+              <button class="add-btn" onclick="addToCart('Budbud Kabog',160)">
+                Add to Cart
+              </button>
+            </div>
+
+            <div class="menu-card">
+              <img src="images/d3.jpg" />
+              <h4>Durian Pastillas</h4>
+              <span class="price">₱140</span>
+              <button
+                class="add-btn"
+                onclick="addToCart('Durian Pastillas',140)"
+              >
+                Add to Cart
+              </button>
+            </div>
+
+            <div class="menu-card">
+              <img src="images/d4.jpg" />
+              <h4>Leche Flan sa Dayap</h4>
+              <span class="price">₱150</span>
+              <button
+                class="add-btn"
+                onclick="addToCart('Leche Flan sa Dayap',150)"
+              >
+                Add to Cart
+              </button>
+            </div>
+
+            <div class="menu-card">
+              <img src="images/d5.jpg" />
+              <h4>Pandan Panna Cotta</h4>
+              <span class="price">₱170</span>
+              <button
+                class="add-btn"
+                onclick="addToCart('Pandan Panna Cotta',170)"
+              >
+                Add to Cart
+              </button>
+            </div>
+
+            <div class="menu-card">
+              <img src="images/d6.jpg" />
+              <h4>Suman sa Lihiya</h4>
+              <span class="price">₱130</span>
+              <button
+                class="add-btn"
+                onclick="addToCart('Suman sa Lihiya',130)"
+              >
+                Add to Cart
+              </button>
+            </div>
+
+            <div class="menu-card">
+              <img src="images/d7.jpg" />
+              <h4>Halo-Halo Mini Cups</h4>
+              <span class="price">₱190</span>
+              <button
+                class="add-btn"
+                onclick="addToCart('Halo-Halo Mini Cups',190)"
+              >
+                Add to Cart
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- ================= DRINKS ================= -->
+        <div class="menu-category">
+          <h3>Drinks</h3>
+          <div class="menu-grid">
+            <div class="menu-card">
+              <img src="images/i1.jpg" />
+              <h4>Calamansi Iced Tea</h4>
+              <span class="price">₱90</span>
+              <button
+                class="add-btn"
+                onclick="addToCart('Calamansi Iced Tea',90)"
+              >
+                Add to Cart
+              </button>
+            </div>
+
+            <div class="menu-card">
+              <img src="images/i2.jpg" />
+              <h4>Buko Pandan Shake</h4>
+              <span class="price">₱120</span>
+              <button
+                class="add-btn"
+                onclick="addToCart('Buko Pandan Shake',120)"
+              >
+                Add to Cart
+              </button>
+            </div>
+
+            <div class="menu-card">
+              <img src="images/i3.jpg" />
+              <h4>Taho Milkshake</h4>
+              <span class="price">₱110</span>
+              <button class="add-btn" onclick="addToCart('Taho Milkshake',110)">
+                Add to Cart
+              </button>
+            </div>
+
+            <div class="menu-card">
+              <img src="images/i4.jpg" />
+              <h4>Samalamig Trio</h4>
+              <span class="price">₱100</span>
+              <button class="add-btn" onclick="addToCart('Samalamig Trio',100)">
+                Add to Cart
+              </button>
+            </div>
+
+            <div class="menu-card">
+              <img src="images/i5.jpg" />
+              <h4>Salabat Cooler</h4>
+              <span class="price">₱90</span>
+              <button class="add-btn" onclick="addToCart('Salabat Cooler',90)">
+                Add to Cart
+              </button>
+            </div>
+
+            <div class="menu-card">
+              <img src="images/i6.jpg" />
+              <h4>Guyabano Smoothie</h4>
+              <span class="price">₱130</span>
+              <button
+                class="add-btn"
+                onclick="addToCart('Guyabano Smoothie',130)"
+              >
+                Add to Cart
+              </button>
+            </div>
+
+            <div class="menu-card">
+              <img src="images/i7.jpg" />
+              <h4>Cucumber-Dalandan Refresher</h4>
+              <span class="price">₱95</span>
+              <button
+                class="add-btn"
+                onclick="addToCart('Cucumber-Dalandan Refresher',95)"
+              >
+                Add to Cart
+              </button>
+            </div>
+
+            <div class="menu-card">
+              <img src="images/i8.jpg" />
+              <h4>Durian Iced Coffee</h4>
+              <span class="price">₱140</span>
+              <button
+                class="add-btn"
+                onclick="addToCart('Durian Iced Coffee',140)"
+              >
+                Add to Cart
+              </button>
+            </div>
+
+            <div class="menu-card">
+              <img src="images/i9.jpg" />
+              <h4>Basil-Calamansi Sparkler</h4>
+              <span class="price">₱110</span>
+              <button
+                class="add-btn"
+                onclick="addToCart('Basil-Calamansi Sparkler',110)"
+              >
+                Add to Cart
+              </button>
+            </div>
+
+            <div class="menu-card">
+              <img src="images/i10.jpg" />
+              <h4>Classic Sago’t Gulaman</h4>
+              <span class="price">₱85</span>
+              <button
+                class="add-btn"
+                onclick="addToCart('Classic Sago’t Gulaman',85)"
+              >
+                Add to Cart
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="order-cart">
+      <h2>Your Order</h2>
+      <div class="cart-content">
+        <ul id="cartItems"></ul>
+        <div class="cart-total">Total: ₱<span id="total">0</span></div>
+
+        <!-- Order Type -->
+        <div class="cart-section">
+          <label
+            ><input type="radio" name="orderType" value="Dine In" checked />
+            Dine In</label
+          >
+          <label
+            ><input type="radio" name="orderType" value="Dine Out" /> Dine
+            Out</label
+          >
+        </div>
+
+        <!-- Fulfillment -->
+        <div class="cart-section">
+          <label
+            ><input
+              type="radio"
+              name="fulfillment"
+              value="Pick Up"
+              checked
+              onclick="toggleAddress(false)"
+            />
+            Pick Up</label
+          >
+          <label
+            ><input
+              type="radio"
+              name="fulfillment"
+              value="Delivery"
+              onclick="toggleAddress(true)"
+            />
+            Delivery</label
+          >
+
+          <div class="address-box" id="addressBox">
+            <label for="address">Delivery Address:</label>
+            <textarea
+              id="address"
+              rows="3"
+              placeholder="Enter your delivery address"
+            ></textarea>
+          </div>
+        </div>
+
+        <!-- Payment Options -->
+        <div class="cart-section payment-options">
+          <label
+            ><input
+              type="radio"
+              name="payment"
+              value="Cash"
+              checked
+              onclick="toggleQR(false)"
+            />
+            Cash</label
+          >
+          <label
+            ><input
+              type="radio"
+              name="payment"
+              value="Card"
+              onclick="toggleQR(false)"
+            />
+            Card</label
+          >
+          <label
+            ><input
+              type="radio"
+              name="payment"
+              value="E-Wallet"
+              onclick="toggleQR(true)"
+            />
+            E-Wallet</label
+          >
+        </div>
+
+        <div class="qr-code" id="qrCode">
+          <img src="images/qrcode.png" alt="Scan QR for Payment" />
+        </div>
+      </div>
+
+      <button class="checkout-btn" onclick="checkout()">Checkout</button>
+    </div>
+
+    <script src="menu.js"></script>
+  </body>
+
+  <!-- ===================== FOOTER ===================== -->
+  <footer class="site-footer">
+    <div class="footer-container">
+      <!-- Logo and Short Description -->
+      <div class="footer-about">
+        <div class="footer-logo">TATLONG ISLA</div>
+        <p>
+          Experience authentic Filipino flavors, delivered with love and
+          passion.
+        </p>
+      </div>
+
+      <!-- Navigation Links -->
+      <div class="footer-nav">
+        <h3>Quick Links</h3>
+        <ul>
+          <li><a href="home.html">Home</a></li>
+          <li><a href="store.html">Our Store</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="menu.html">Menu</a></li>
+        </ul>
+      </div>
+
+      <!-- Contact Info -->
+      <div class="footer-contact">
+        <h3>Contact Us</h3>
+        <p><span class="footer-icon">📞</span> +63 912 345 6789</p>
+        <p><span class="footer-icon">✉️</span> info@tatlongisla.com</p>
+        <div class="footer-socials">
+          <a href="#" title="Facebook">👍</a>
+          <a href="#" title="Instagram">📸</a>
+          <a href="#" title="Twitter">🐦</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p>&copy; 2025 Tatlong Isla. All Rights Reserved.</p>
+    </div>
+  </footer>
+</html>
